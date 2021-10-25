@@ -4,8 +4,6 @@
   </div>
 </template>
 
-<script setup>
-// import { $fetch } from 'ohmyfetch'
+<script setup lang="ts">
 const config = useRuntimeConfig()
-// const result = await $fetch('/api/health/updates')
 </script>

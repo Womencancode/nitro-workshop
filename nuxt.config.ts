@@ -1,6 +1,10 @@
 import { defineNuxtConfig } from 'nuxt3'
 
 export default defineNuxtConfig({
+    nitro: {
+        preset: 'azure',
+        timing: true
+    },
     privateRuntimeConfig: {
         redisURL: 'http://localhost:6379',
         token: process.env.MAGIC_TOKEN,
