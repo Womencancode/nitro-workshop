@@ -1,6 +1,11 @@
 <template>
   <div>
-    <!-- Remove this component to get started! -->
-    <NuxtWelcome />
+    {{ config.publicInfo }}
   </div>
 </template>
+
+<script setup>
+// import { $fetch } from 'ohmyfetch'
+const config = useRuntimeConfig()
+// const result = await $fetch('/api/health/updates')
+</script>
